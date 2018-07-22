@@ -1,0 +1,20 @@
+{
+  "name": "RtNTPClient",
+  "keywords": "ntp, client, time, realtime",
+  "description": "A real time ntp client to connect to a time server",
+  "authors":
+  [
+    {
+      "name": "Ramiro del Corro",
+      "email": "info@ramirodelcorro.com"
+    }  
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/arduino-libraries/RtNTPClient.git"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "espressif"
+}
