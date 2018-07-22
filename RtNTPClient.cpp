@@ -127,7 +127,7 @@ void RtNTPClient::setUpdateInterval(int updateInterval) {
 }
 
 void RtNTPClient::sendNTPPacket() {
-  printMsg("Sending the ntp packet");
+  printMsg("Sending the ntp packet\n");
   // set all bytes in the buffer to 0
   memset(mPacketBuffer, 0, NTP_PACKET_SIZE);
   // Initialize values needed to form NTP request
